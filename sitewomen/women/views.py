@@ -54,3 +54,7 @@ def page_not_found(request, exception):
 def kub(request):
     return render(request,"women/3D_kub.html")
 
+def animals(request):
+    return render(request,"women/animals.html")
+
+

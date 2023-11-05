@@ -13,4 +13,5 @@ urlpatterns = [
     path('login/', views.login, name='login'),
     path('post/<int:post_id>/', views.show_post, name='post'),
     path('kub/', views.kub, name='kub'),
+    path('animals/', views.animals, name='animals'),
 ]
